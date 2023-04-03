@@ -1,0 +1,199 @@
+.title a img {
+  width: 75%;
+  border: 10px solid #EB2641;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+  margin-top: 0%;
+}
+
+.title a img:hover {
+  width: 76%;
+  border: 10px solid #FF6A4C;
+  transition: all 0.5s ease;
+  margin-top: 0%;
+}
+
+.title {
+  text-align: center;
+  font-family: "Carter One";
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  color: #FFC45B;
+  position: relative;
+  margin-right: 10px;
+}
+
+nav a {
+  background-color: #EB2641;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #FFC45B;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+nav a:hover {
+  background-color: #FF6A4C;
+  border-radius: 20px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+nav img {
+  height: 45px;
+  border: 0px;
+}
+
+nav {
+  background-color: #68253F;
+  padding: 10px;
+  text-align: center;
+}
+
+html {
+  background-color: #FFC45B;
+  font-family: "Concert One";
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 5px solid #EB2641;
+}
+
+.header {
+  top: 0;
+  height: 100px;
+  background-color: #FFC45B;
+}
+
+.footer {
+  bottom: 0;
+  height: 40px;
+  background-color: #FFC45B;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #68253F;
+  height: 45px;
+  border-top: 5px solid #EB2641;
+}
+
+h1 {
+  color: #68253F;
+}
+
+p {
+  text-align: left;
+  background-color: #FF6A4C;
+  color: #68253F;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  padding: 10px;
+  float: clear;
+  text-indent: 50px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.story1 {
+  height: 225px;
+  width: 300px;
+  border: 10px solid #EB2641;
+  border-radius: 25px;
+  margin-left: 5%;
+}
+
+h1 {
+  margin-left: 5%;
+}
+
+.left {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  height: 100%;
+  text-align: center;
+  background-color: #68253F;
+}
+
+.right {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 75px;
+  height: 100%;
+  text-align: center;
+  background-color: #68253F;
+}
+
+.title h1 {
+  text-shadow: 2px 4px #FF6A4C;
+  font-size: 50px;
+  font-variant: small-caps;
+}
+
+.arrowLeft {
+  width: 100px;
+}
+
+.arrowRight {
+  width: 100px;
+  background: url("images/arrowRight.png") no-repeat;
+}
+
+.arrowRight:hover {
+  background: url("images/arrow1Right.png") no-repeat;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #68253F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #EB2641;
+  transition: all 0.5s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6A4C;
+  transition: all 0.5s ease;
+}
+
+a img {
+  width: 50px;
+  margin-top: 20%;
+}
+
+p#first::first-letter {
+  font-size: 50px;
+  font-family: "Carter One";
+}
